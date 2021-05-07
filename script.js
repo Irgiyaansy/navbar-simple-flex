@@ -1,6 +1,8 @@
 const burgerBtn = document.querySelector(".burger-button");
-const navbar = document.querySelector(".container-nav .menu");
+const nav = document.querySelector("nav");
+const menu = document.querySelector(".container-nav .menu");
 
 burgerBtn.addEventListener("click", () => {
-   navbar.classList.toggle("slide");
+   menu.classList.toggle("slide");
+   // nav.classList.toggle("static");
 });

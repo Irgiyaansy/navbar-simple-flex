@@ -4,7 +4,6 @@
    margin: 0;
 }
 body {
-   height: 10000px;
    overflow-x: hidden;
 }
 
@@ -131,7 +130,8 @@ input:checked ~ span:nth-child(4) {
 }
 /* Mobile */
 @media only screen and (max-width: 568px) {
-   nav {
+   .static {
+      position: static;
       z-index: 99;
    }
    .container-nav {
